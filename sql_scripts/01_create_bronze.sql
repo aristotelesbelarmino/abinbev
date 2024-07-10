@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS bronze_breweries (
+    id SERIAL PRIMARY KEY,
+    data JSONB NOT NULL,
+    load_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
